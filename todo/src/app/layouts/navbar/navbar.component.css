@@ -1,0 +1,38 @@
+
+header {
+    padding-top: 20px; 
+    padding-bottom: 10px; 
+    margin-bottom: 30px; 
+}
+
+
+.brand {
+    background-color: #f3f6ff; 
+    padding: 10px 30px;
+    border-radius: 25px;
+    cursor: point;
+    max-width: 150px; 
+    margin: 0 auto; 
+    font-size:medium;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+
+    .brand {
+        background-color: #f3f6ff; 
+        padding: 10px 30px;
+        border-radius: 25px;
+        width: 70vw; 
+        max-width: 150px; 
+        margin: 0 auto; 
+        font-size:medium;
+
+    }
+}
+

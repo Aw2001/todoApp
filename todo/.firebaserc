@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "todo-82817": {
+      "hosting": {
+        "todo": [
+          "todo-82817"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "todo-82817"
+  }
+}

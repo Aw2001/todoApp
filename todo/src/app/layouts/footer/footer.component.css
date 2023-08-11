@@ -1,0 +1,39 @@
+footer {
+    padding-top: 20px; 
+    padding-bottom: 10px;  
+}
+.brand {
+    width: 70vw; 
+    max-width: 150px; 
+    margin: 0 auto; 
+    font-size:larger;
+}
+.copyright{
+    position: relative;
+    left: -17px;
+    width: 70vw; 
+    max-width: 150px; 
+    margin: 0 auto; 
+    font-size: small;
+}
+@media (max-width: 768px) {
+    footer {
+        
+        padding-top: 20px;
+        padding-bottom: 10px;
+        
+    }
+    .brand {
+        max-width: 150px; 
+        margin: 0 auto; 
+        font-size:larger;
+    }
+    .copyright{
+        position: relative;
+        left: -17px;
+        width: 70vw; 
+        max-width: 150px; 
+        margin: 0 auto; 
+        font-size: small;
+    }
+}

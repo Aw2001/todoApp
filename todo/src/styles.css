@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url('./assets/Bckground.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 768px) {
+    body {
+        background-size: contain; /* Changez en "contain" pour les petits écrans */
+    }
+}
+.drop-shadow{
+    -webkit-box-shadow: 0px 0px 33px -10px rgba(71,114,254,0.3);
+    -moz-box-shadow: 0px 0px 33px -10px rgba(71,114,254,0.3);
+    box-shadow: 0px 0px 33px -10px rgba(71,114,254,0.3);
+}
+input[type = text]{
+    background-color: #fefefe;
+    height: 45px;
+    padding-left: 20px;
+    
+}
+.btn-todo{
+    height: 45px;
+    background-color: #4772fe;
+    color: #fff;
+    border: none; 
+}
+.btn-block{
+    position: relative;
+    left: 40%;
+}

@@ -1,0 +1,38 @@
+.todo-lists{
+    margin-top: 50px;
+}
+.todo-lists .card{
+    border: none;
+    margin-top: 5px;
+    background-color: #f8f8f8;
+}
+.todo-tools{
+    display: none;
+}
+.todo-tools i{
+    margin: 0px 5px;
+    
+}
+.clearfix{
+    display: flex;
+    justify-content: space-between;
+}
+.float-right{
+    position: relative;
+    left: 32%;
+    cursor: pointer;
+}
+.todo-lists .card:hover{
+    cursor: pointer;
+    width: 600px;
+    height: 60px;
+    margin-left: -2px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.todo-lists .card:hover .todo-tools{
+    display: inline;
+}
+i{
+    margin-right: 10px;
+}
